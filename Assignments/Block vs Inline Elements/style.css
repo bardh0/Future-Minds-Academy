@@ -1,0 +1,9 @@
+body {
+  background-color: beige;
+  margin: 3%;
+  font-size: 2em;
+}
+
+.displaytype {
+  display: inline;
+}
