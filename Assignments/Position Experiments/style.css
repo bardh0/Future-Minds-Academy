@@ -52,3 +52,10 @@ body {
   top: 77%;
   left: 16%;
 }
+footer {
+  visibility: hidden;
+}
+
+.hiddenh1 {
+  display: none;
+}
