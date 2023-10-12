@@ -1,0 +1,80 @@
+body {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🚀</text></svg>")
+      16 0,
+    auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  background-image: url("Images/backgroundimage.webp");
+  background-color: lightblue;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 2.5em;
+}
+
+li {
+  display: inline;
+  text-align: center;
+}
+
+.projects,
+.home {
+  border: 1px solid black;
+  text-align: center;
+  margin: 10px;
+  color: white;
+  background-color: #53a4c9;
+  text-decoration: none;
+  position: relative;
+  right: 1.2%;
+  border-radius: 7px;
+  padding: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+nav {
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+}
+.line {
+  position: relative;
+  right: 1%;
+  font-weight: 900;
+  padding: 10px;
+  margin: 5px 20px;
+}
+
+hr {
+  border: 1px solid black;
+  margin: 1% 15%;
+}
+
+footer {
+  border: solid 1px black;
+  text-align: center;
+  margin: 1% 10%;
+  padding: 3%;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  opacity: 0.8;
+}
+footer:hover {
+  opacity: 1;
+}
+
+nav ul li a:hover {
+  background-color: #1721ac;
+}
+.line:hover {
+  background-color: #1721ac;
+}
+
+.section-one {
+}
