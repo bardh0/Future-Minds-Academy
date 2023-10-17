@@ -1,3 +1,7 @@
+* {
+  cursor: inherit;
+}
+
 body {
   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🚀</text></svg>")
       16 0,
@@ -68,19 +72,13 @@ img {
 
 .section-one {
   background-color: #dfe46a;
-  margin: 5% 10% 0%;
-  position: relative;
-  bottom: 50px;
+  margin: 20px 10% 20px 10%;
   padding: 10px;
   border-radius: 25px;
 }
 .section-one:hover {
   background-color: #aab019;
   border: solid 3px black;
-}
-
-nav li:hover {
-  background-color: #1721ac;
 }
 
 .education h2 {
@@ -152,15 +150,12 @@ nav li:hover {
 
 .skills {
   border-radius: 25px;
-  margin: 2% 10%;
+  margin: 20px 10% 20px 10%;
   padding: 10px;
   background-color: #beff8d;
 }
 table {
-  width: 65%;
-  margin: 1% 13%;
-  position: relative;
-  right: 9%;
+  margin: auto;
   font-size: 20px;
 }
 table,
@@ -226,4 +221,9 @@ footer:hover {
 }
 .arrowclass:hover {
   background-color: #da7723;
+}
+
+.projects:hover,
+.contact:hover {
+  background-color: #1721ac;
 }
